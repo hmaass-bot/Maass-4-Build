@@ -199,3 +199,38 @@ footer a {
     }
 }
 
+@media (min-width: 1000px) {
+    nav {
+        padding: 1.5rem 4rem;
+    }
+
+    .hero {
+        gap: 4rem;
+        padding: 5rem 4rem;
+    }
+
+    .hero img {
+        min-height: 380px;
+        max-height: 500px;
+    }
+
+    .content-section {
+        padding: 5rem 4rem;
+    }
+
+    .content-section h2 {
+        font-size: 2.5rem;
+    }
+
+    .card-row {
+        gap: 1.5rem;
+    }
+
+    .card {
+        padding: 1.25rem;
+    }
+
+    footer {
+        padding: 2rem 4rem;
+    }
+}
